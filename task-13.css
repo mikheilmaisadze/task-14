@@ -1,0 +1,477 @@
+@font-face {
+    font-family: ubuntu;
+    src: url("ubuntu.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "ubuntu";
+}
+
+body {
+    padding: 34px 0 0 0;
+}
+
+body>img {
+    width: 151px;
+    height: 101px;
+    display: block;
+    margin-inline: auto;
+    margin-bottom: 48px;
+}
+
+button {
+    cursor: pointer;
+}
+
+a:link {
+    color: #957554;
+}
+
+a:visited {
+    color: #957554;
+}
+
+
+.container {
+    margin-inline: auto;
+    width: 653px;
+    height: 28px;
+    display: flex;
+    justify-content: space-between; 
+    font-weight: 500;
+    font-size: 24px;
+    color: #957554;   
+}
+
+.container a {
+text-decoration: none;
+}
+
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    width: 100%;
+    height: 100%;
+}
+
+.select {
+    width: 192px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #FFF;
+    padding-left: 17px;
+    border: 1px solid #000000;
+    font-weight: 300;
+    font-size: 20px;
+    color: rgb(0, 0, 0, 0.5);
+    text-transform: capitalize;
+    line-height: 22.98px;
+}
+
+.select1 {
+    background-image: url(calendar.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-position: 160px;
+    width: 192px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #FFF;
+    padding-left: 17px;
+    border: 1px solid #000000;
+    font-weight: 300;
+    font-size: 22px;
+    color: rgb(0, 0, 0, 0.5);
+    text-transform: capitalize;
+    padding-top: 14px;
+}
+
+.select1 img {
+ height: 17.5px;
+width: 16px;
+display: inline;
+
+}
+
+input[type="text"] {
+    width: 202px;
+    height: 60px;
+    background-color: #DFAA5B;
+    border: 1px solid #000;
+    text-transform: capitalize;
+    padding: auto;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 22.98px;
+    color: #FFF;
+    padding-left: 27px;
+}
+
+section {
+    margin-top: 0px;
+    margin-block-start: 0px;
+    padding-top: 323px;
+    margin-bottom: 186px;
+   width: 100%;
+    height: 790px;
+    background-color: black;
+     margin-top: 147px;
+    background-image: url(Hotel.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+section h1 {
+font-size: 80px;
+font-weight: 700;
+line-height: 106px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFF;
+}
+
+section p {
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFF;
+margin-bottom: 41px;
+}
+
+section button {
+    
+display: block;
+ height: 76px;
+width: 371px;
+border: none;
+border-radius: 10px;
+background-color: #DFAA5B;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFF;
+margin-inline: auto;
+}
+
+article {
+    margin-inline: auto;
+    margin-top: -300px;
+ height: 289px;
+width: 1319px;
+border-radius: 10px;
+background: #FFFFFF;
+padding-top: 42px;
+padding-bottom: 46px;
+padding-left: 183px;
+padding-right: 201px;
+text-transform: capitalize;
+}
+
+article h2 {
+font-size: 45px;
+font-weight: 500;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: center;
+color: #957554;
+margin-bottom: 50px;
+}
+
+article img {
+    height: 60px;
+    width: 60px;
+}
+
+article p {
+    font-family: Ubuntu;
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+color: #957554;
+}
+
+.facilities {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.knife {
+    margin-left: 14px;
+}
+
+button {
+    outline: none;
+}
+
+ .room {
+    font-family: Ubuntu;
+font-size: 45px;
+font-weight: 500;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: center;
+color: #957554;
+margin-bottom: 52px;
+}
+
+.flats {
+    height: 1058px;
+    width: calc(630px * 2 + 60px );
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.flats div {
+    width: 630px;
+    height: 500px;
+    border-radius: 10px;
+    padding-top: 290px;
+    padding-bottom: 57px;
+    border: none;
+}
+
+.flats div button {
+    width: 244px;
+    height: 76px;
+    display: block;
+    margin-inline: auto;
+    border-radius: 10px;
+    background-color: #DFAA5B;
+    border: none;
+    margin-top: 34px;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFF;
+text-transform: capitalize;
+}
+
+.flats h2 {
+    font-family: Ubuntu;
+font-size: 40px;
+font-weight: 500;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFF;
+text-transform: capitalize;
+}
+
+.num1 {
+    background-image: url(firstroom.png);
+}
+
+.num2 {
+    background-image: url(secondroom.png);
+}
+
+.num3 {
+    background-image: url(thirdroom.png);
+}
+
+.num4 {
+    background-image: url(fourthroom.png);
+}
+
+.get {
+    font-family: "Ubuntu";
+font-size: 45px;
+font-weight: 500;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: center;
+color: #957554;
+margin-top: 114px;
+margin-bottom: 38px;
+}
+
+.book {
+    border: none;
+    width: 418px;
+    height: 76px;
+    border-radius: 10px;
+    background-color: #DFAA5B;
+    display: block;
+    margin-inline: auto;
+    font-family: "Ubuntu";
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFF;
+margin-bottom: 112px;
+}
+
+footer {
+    width: 100%;
+    height: 469px;
+    background-color: #111111;
+    padding: 61px 70px 131px 59px;
+    display: flex;
+}
+
+footer img {
+    width: 154px;
+    height: 126px;
+    margin-left: 4px;
+    margin-bottom: 68px;
+}
+
+.info {
+    width: 263px;
+    font-family: "ubuntu";
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFF;
+}
+
+.info a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.alt {
+    width: 191px;
+    max-height: 249px;
+    margin-inline: auto;
+    overflow-wrap: normal;
+}
+
+.alt a {
+    font-family: "ubuntu";
+font-size: 24px;
+font-weight: 400;
+line-height: 50px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFF;
+text-transform: capitalize;
+}
+
+.alt a:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+form {
+    margin-left: 251px;
+    height: 100%;
+    width: 371px;
+    margin-inline-start: 0px;
+    padding-top: calc(61px - 34px);
+}
+
+footer form p {
+font-size: 30px;
+font-weight: 500;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFF;
+}
+
+input[type="email"] {
+    width: 371px;
+    height: 75px;
+    background-color: #FFF;
+    padding-left: 27px;
+    border-radius: 10px;
+font-size: 24px;
+font-weight: 300;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 20px;
+margin-bottom: 24px;
+outline: none;
+}
+
+footer form button {
+    border-radius: 10px;
+    height: 75px;
+    width: inherit;
+    background-color: #DFAA5B;
+    border: none;
+font-size: 24px;
+font-weight: 500;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+}
+
+.dropdown {
+    margin: 0;
+    margin-top: 34px;
+    position: absolute;
+    width: 100%;
+    height: 119px;
+    background-color: #111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.dropdown button {
+    width: 192px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    font-weight: 300;
+    font-size: 20px;
+    border: none;
+    padding-left: 17px;
+    text-align: start;
+    color:#00000080; 
+    background-image: url(calendar.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: 158px;
+}
+
+.dropdown button:last-child {
+    width: 202px;
+    height: 60px;
+    background-color: #DFAA5B;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 20px;
+    border: none;
+    background-image: none;
+    color: #FFFFFF;
+}
+
+.dropdown button:first-child {
+    background-image: url(select.png);
+}
+
+img[alt=search] {
+    position: absolute;
+    top: 190px;
+    left: 1310px;
+}  
+
+
